@@ -69,6 +69,8 @@ Para esta configuración y secuencia de solicitudes siguiendo el modelo de costo
 
 Para esta configuración y secuencia de solicitudes siguiendo el modelo de costos establecido al inicio, el costo total de la operación es de 67. 
 
+![Imagen](https://raw.githubusercontent.com/PedroPabloGuzmanMayen/Proyecto3_ADA/blob/main/P3_P2.png?raw=true)
+
 - 3. Para qué secuencia de 20 solicitudes se obtiene el mínimo costo total de acceso utilizando el algoritmo MTF para la configuración 0, 1, 2, 3, 4? ¿Cuál sería ese costo total de acceso?
 
 La secuencia con la que se obtiene el costo mínimo es la secuencia que contiene 20 0's. Esto debido a que el 0 es el primer elemento en la lista de configuraciones y por lo tanto no tenemos que hacer ninguna búsqueda para encontrarlo y como 0 ya está al frente, tampoco se hace ningún intercambio y el orden original de la lista de configuraciones no se altera. Con el modelo de costo establaecido, el costo total de este caso es de 20 (1 operación por cada vez que solicitamos el 0). 
