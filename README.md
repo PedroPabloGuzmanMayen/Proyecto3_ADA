@@ -75,6 +75,8 @@ Para esta configuración y secuencia de solicitudes siguiendo el modelo de costo
 
 La secuencia con la que se obtiene el costo mínimo es la secuencia que contiene 20 0's. Esto debido a que el 0 es el primer elemento en la lista de configuraciones y por lo tanto no tenemos que hacer ninguna búsqueda para encontrarlo y como 0 ya está al frente, tampoco se hace ningún intercambio y el orden original de la lista de configuraciones no se altera. Con el modelo de costo establaecido, el costo total de este caso es de 20 (1 operación por cada vez que solicitamos el 0). 
 
+![Imagen](P3_P3.png)
+
 - 4. ¿Para qué secuencia de 20 solicitudes se obtiene el peor de los casos utilizando el algoritmo MTF para la configuración 0, 1, 2, 3, 4? ¿Cuál sería ese costo total de acceso?
 
 La secuencia de 20 solicitudes con el peor caso es la secuencia $$[4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0]$$ esto debido a que en esta secuencia cada una de las solcitudes el elemento a buscar está en la última posición de la lista de configuraciones y eso provoca que cada una de las solicitudes alcance su mayor costo posible. Por ejemplo, la primera solictud es 4 y se sabe que este número está en la última posición al inicio, 4 se mueve al frente pero la próxima solicitud es 3 y este número queda en la última posición debido al cambio realizado anteriormente. 
