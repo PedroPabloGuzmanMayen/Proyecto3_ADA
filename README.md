@@ -54,14 +54,14 @@ El repositorio del código de este proytecto puede encontrarse en: [Link al Repo
 # Análisis y preguntas
 
 - 1. Calcular el costo de acceso utilizando el algoritmo MTF para
-- -(a) Lista de configuración: 0, 1, 2, 3, 4
-- -(b) Secuencia de solicitudes: 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4
+  - (a) Lista de configuración: 0, 1, 2, 3, 4
+  - (b) Secuencia de solicitudes: 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4
 
 Para esta configuración y secuencia de solicitudes siguiendo el modelo de costos establecido al inicio, el costo total de la operación es de 90. 
 
 - 2. Calcular el costo de acceso utilizando el algoritmo MTF para
-- -(a) Lista de configuración: 0, 1, 2, 3, 4
-- -(b) Secuencia de solicitudes: 4, 3, 2, 1, 0, 1, 2, 3, 4, 3, 2, 1, 0, 1, 2, 3, 4
+  - (a) Lista de configuración: 0, 1, 2, 3, 4
+  - (b) Secuencia de solicitudes: 4, 3, 2, 1, 0, 1, 2, 3, 4, 3, 2, 1, 0, 1, 2, 3, 4
 
 Para esta configuración y secuencia de solicitudes siguiendo el modelo de costos establecido al inicio, el costo total de la operación es de 67. 
 
