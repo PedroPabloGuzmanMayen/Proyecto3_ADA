@@ -82,6 +82,8 @@ La secuencia con la que se obtiene el costo mínimo es la secuencia que contiene
 La secuencia de 20 solicitudes con el peor caso es la secuencia $$[4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0]$$ esto debido a que en esta secuencia cada una de las solcitudes el elemento a buscar está en la última posición de la lista de configuraciones y eso provoca que cada una de las solicitudes alcance su mayor costo posible. Por ejemplo, la primera solictud es 4 y se sabe que este número está en la última posición al inicio, 4 se mueve al frente pero la próxima solicitud es 3 y este número queda en la última posición debido al cambio realizado anteriormente. 
 Con el modelo de costos establecido al inicio, el algoritmo alcanza un costo total de 100. 
 
+![Imagen](P4_P3.png)
+
 - 5. Calcular el costo de acceso utilizando el algoritmo MTF para
   (a) Lista de configuración: 0, 1, 2, 3, 4
   (b) Secuencia de solicitudes: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
