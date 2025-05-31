@@ -4,7 +4,6 @@
 # Implementación de los algoritmos
 
 
-
 ## Modelo de costos
 
 Para la implementación del modelo se uso este modelo de costos: 
@@ -45,7 +44,7 @@ Este es el pseudocódigo del algoritmo:
 
 # Video 
 
-Puede encontrar un video con una explicación más detallada en este enlace: 
+Puede encontrar un video con una explicación más detallada en este enlace: [Enlace al video][https://youtu.be/3h1XXIZhsuQ]
 
 # Repositorio
 
@@ -59,7 +58,7 @@ El repositorio del código de este proytecto puede encontrarse en: [Link al Repo
 
 Para esta configuración y secuencia de solicitudes siguiendo el modelo de costos establecido al inicio, el costo total de la operación es de 90. 
 
-![Imagen][https://raw.githubusercontent.com/PedroPabloGuzmanMayen/Proyecto3_ADA/f383242b5e91a47e7473fc17140678a0b9336730/P3%20P1.png]
+![Imagen](https://raw.githubusercontent.com/PedroPabloGuzmanMayen/Proyecto3_ADA/f383242b5e91a47e7473fc17140678a0b9336730/P3%20P1.png)
 
 - 2. Calcular el costo de acceso utilizando el algoritmo MTF para
   - (a) Lista de configuración: 0, 1, 2, 3, 4
@@ -76,7 +75,14 @@ La secuencia con la que se obtiene el costo mínimo es la secuencia que contiene
 La secuencia de 20 solicitudes con el peor caso es la secuencia $$[4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0]$$ esto debido a que en esta secuencia cada una de las solcitudes el elemento a buscar está en la última posición de la lista de configuraciones y eso provoca que cada una de las solicitudes alcance su mayor costo posible. Por ejemplo, la primera solictud es 4 y se sabe que este número está en la última posición al inicio, 4 se mueve al frente pero la próxima solicitud es 3 y este número queda en la última posición debido al cambio realizado anteriormente. 
 Con el modelo de costos establecido al inicio, el algoritmo alcanza un costo total de 100. 
 
-- 5. 
+- 5. Calcular el costo de acceso utilizando el algoritmo MTF para
+  (a) Lista de configuración: 0, 1, 2, 3, 4
+  (b) Secuencia de solicitudes: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
+  (c) Secuencia de solicitudes: 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+  (d) ¿Se observa algún patrón cuando hay una repetición de 20 elementos en la secuencia?
+
+
+Con la secuencia de 20 números 2's, el costo total fue de 22 mientras que con la secuencia de números 3's el costo fue de 23. El patrón que se observa en estas solicitudes es que el costo final resulta siendo 20 + el costo total de la posición del elemento inicial en la solicitud. En este caso, cuando se solicito el número 2 al inicio se hizo una operación con un costo de 3 y se movió el 2 al frente, luego se hicieron 19 solictiudes en las cuáles el elemento solicitado estaba en la posición inicial lo cuál da un costo total de $$3+19 = 22$$ 
 
 
 - 6. Mejor y peor caso del algoritmo IMTF
