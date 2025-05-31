@@ -58,7 +58,10 @@ El repositorio del código de este proytecto puede encontrarse en: [Link al Repo
 
 Para esta configuración y secuencia de solicitudes siguiendo el modelo de costos establecido al inicio, el costo total de la operación es de 90. 
 
+
 ![Imagen](https://raw.githubusercontent.com/PedroPabloGuzmanMayen/Proyecto3_ADA/f383242b5e91a47e7473fc17140678a0b9336730/P3%20P1.png)
+
+
 
 - 2. Calcular el costo de acceso utilizando el algoritmo MTF para
   - (a) Lista de configuración: 0, 1, 2, 3, 4
