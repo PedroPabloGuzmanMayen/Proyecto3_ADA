@@ -104,11 +104,11 @@ Al igual que en el algoritmo MTF, el algoritmo IMTF obtiene su mejor caso cuando
 El peor caso también se produce con las solicitudes con la lista de solicutudes que contiene los elementos de la tabla de configuración original en orden inverso, esto debido a que el algoritmo jamás moverá al frente ningún elemento y deberá hacer siempre una búsqueda que sea igual a la posición del elemento que se busque . El costo total con una secuencia de 20 solcitudes usando el algoritmo fue de 60. 
 
 Mejor caso: 
-![Imagen](P3_P61.png)
+![Imagen](P3_61.png)
 
 
 Peor caso:
-![Imagen](P3_P62.png)
+![Imagen](P3_62.png)
 
 
 
