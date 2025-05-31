@@ -93,6 +93,9 @@ Con el modelo de costos establecido al inicio, el algoritmo alcanza un costo tot
 
 Con la secuencia de 20 números 2's, el costo total fue de 22 mientras que con la secuencia de números 3's el costo fue de 23. El patrón que se observa en estas solicitudes es que el costo final resulta siendo 20 + el costo total de la posición del elemento inicial en la solicitud. En este caso, cuando se solicito el número 2 al inicio se hizo una operación con un costo de 3 y se movió el 2 al frente, luego se hicieron 19 solictiudes en las cuáles el elemento solicitado estaba en la posición inicial lo cuál da un costo total de $$3+19 = 22$$ 
 
+![Imagen](P3_P51.png)
+
+![Imagen](P3_P52.png)
 
 - 6. Mejor y peor caso del algoritmo IMTF
 
